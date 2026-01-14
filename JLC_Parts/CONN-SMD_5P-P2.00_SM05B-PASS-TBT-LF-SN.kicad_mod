@@ -409,7 +409,7 @@
 	(embedded_fonts no)
 	(model "packages3d/CONN-SMD_5P-P2.00_SM05B-PASS-TBT-LF-SN.step"
 		(offset
-			(xyz 4.000025 -2.174951 0)
+			(xyz 4.000025 -2.674951 0)
 		)
 		(scale
 			(xyz 1 1 1)

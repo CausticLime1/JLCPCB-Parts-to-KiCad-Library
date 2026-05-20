@@ -4599,7 +4599,7 @@
 			)
 		)
 		(symbol "LSM6DSRXTR_1_1"
-			(pin passive line
+			(pin bidirectional line
 				(at -16.51 7.62 0)
 				(length 2.54)
 				(name "SDO/SA0"

@@ -1,0 +1,211 @@
+(footprint "HDR-TH_3P-P2.54-V-M-1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "HDR-TH_3P-P2.54-V-M-1 footprint")
+	(tags "HDR-TH_3P-P2.54-V-M-1 footprint C49257")
+	(property "Reference" "REF**"
+		(at 0 -3.270003 0)
+		(layer "F.SilkS")
+		(uuid "7da380da-ff08-47d1-a54d-c08e274ffe04")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "HDR-TH_3P-P2.54-V-M-1"
+		(at 0 3.270003 0)
+		(layer "F.Fab")
+		(uuid "e0149a3a-72ef-43f6-ac27-fea274dc40da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d5de3dbe-6823-48a5-bb34-e792fd1fe0f8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2dac43f0-1985-4a7f-a0aa-ee8d9c702e7e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.810008 -1.270003)
+		(end -3.810008 1.270003)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1b4e59b8-42ab-4e9d-9a1b-b7955c5f65e6")
+	)
+	(fp_line
+		(start -3.810008 1.270003)
+		(end 3.810008 1.270003)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7c6848c5-e756-4269-bb69-4173f4cdbc56")
+	)
+	(fp_line
+		(start -1.905004 -1.270003)
+		(end -3.810008 -1.270003)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a345c1b1-e233-4fa4-bb53-52880266b03c")
+	)
+	(fp_line
+		(start 3.810008 -1.270003)
+		(end -1.905004 -1.270003)
+		(stroke
+			(width 0.203)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1844105b-6647-4324-a48b-db4a608da4e4")
+	)
+	(fp_line
+		(start 3.810008 1.270003)
+		(end 3.810008 -1.270003)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a316ce05-bfd9-4226-99b1-d2638d113ee3")
+	)
+	(fp_circle
+		(center -3.810008 1.249987)
+		(end -3.78001 1.249987)
+		(stroke
+			(width 0.059995)
+			(type solid)
+		)
+		(fill no)
+		(layer "Rescue")
+		(uuid "f78b0a4a-3011-4933-84b1-362e0e1f3057")
+	)
+	(fp_poly
+		(pts
+			(xy -3.810008 1.249987) (xy -3.810008 -1.250013) (xy 3.810008 -1.250013) (xy 3.810008 1.249987)
+		)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Rescue")
+		(uuid "71a7c315-8a1b-4fa1-83f9-c86a648037d2")
+	)
+	(fp_poly
+		(pts
+			(xy -2.859995 -0.31999) (xy -2.220015 -0.31999) (xy -2.220015 0.31999) (xy -2.859995 0.31999)
+		)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Rescue")
+		(uuid "03f976a5-b902-4966-b985-5e0afb9b8adf")
+	)
+	(fp_poly
+		(pts
+			(xy -0.31999 -0.31999) (xy 0.31999 -0.31999) (xy 0.31999 0.31999) (xy -0.31999 0.31999)
+		)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Rescue")
+		(uuid "70a78b9d-3a2a-4427-846c-e6c2eb773d0d")
+	)
+	(fp_poly
+		(pts
+			(xy 2.220015 -0.31999) (xy 2.859995 -0.31999) (xy 2.859995 0.31999) (xy 2.220015 0.31999)
+		)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Rescue")
+		(uuid "b4edebed-1588-40b4-a781-0571c6f790de")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "31af4f54-ee61-4f7b-b7e3-c540e2eeb7b0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -2.540005 0)
+		(size 1.574803 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "527ab6e1-8297-4b01-8678-342fe6ec0d72")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8d7ca8f0-58cb-4683-943e-d22c851ecea9")
+	)
+	(pad "3" thru_hole circle
+		(at 2.540005 0)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2d13ba4c-64ee-4129-9030-1656d66788b9")
+	)
+	(embedded_fonts no)
+	(model "packages3d/HDR-TH_3P-P2.54-V-M-1.step"
+		(offset
+			(xyz 2.54 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

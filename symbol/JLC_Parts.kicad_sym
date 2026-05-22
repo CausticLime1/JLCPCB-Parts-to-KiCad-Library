@@ -515,7 +515,9 @@
 					(type background)
 				)
 			)
-			(pin unspecified line
+		)
+		(symbol "210S-1*2P_L=11_6MMGold-plated_black_1_1"
+			(pin passive line
 				(at -5.08 1.27 0)
 				(length 2.54)
 				(name "1"
@@ -533,7 +535,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -5.08 -1.27 0)
 				(length 2.54)
 				(name "2"
@@ -639,8 +641,8 @@
 		)
 		(symbol "2450FM07A0035001T_0_1"
 			(rectangle
-				(start -11.4301 3.81)
-				(end 11.4301 -3.81)
+				(start -5.0799 3.81)
+				(end 5.0799 -3.81)
 				(stroke
 					(width 0)
 					(type default)
@@ -650,8 +652,8 @@
 				)
 			)
 			(circle
-				(center -10.1601 2.54)
-				(radius 0.381)
+				(center -3.81 2.54)
+				(radius 0.3809)
 				(stroke
 					(width 0)
 					(type default)
@@ -663,9 +665,9 @@
 		)
 		(symbol "2450FM07A0035001T_1_1"
 			(pin passive line
-				(at -13.97 1.27 0)
+				(at -7.62 0 0)
 				(length 2.54)
-				(name "IN(To_the_nRF52)"
+				(name "IN"
 					(effects
 						(font
 							(size 1 1)
@@ -681,7 +683,7 @@
 				)
 			)
 			(pin power_in line
-				(at -13.97 -1.27 0)
+				(at 0 -6.35 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -699,9 +701,9 @@
 				)
 			)
 			(pin passive line
-				(at 13.97 -1.27 180)
+				(at 7.62 0 180)
 				(length 2.54)
-				(name "OUT(To_Antenna)"
+				(name "OUT"
 					(effects
 						(font
 							(size 1 1)
@@ -717,8 +719,9 @@
 				)
 			)
 			(pin power_in line
-				(at 13.97 1.27 180)
+				(at 0 -6.35 90)
 				(length 2.54)
+				(hide yes)
 				(name "GND"
 					(effects
 						(font
@@ -3272,7 +3275,9 @@
 					(type background)
 				)
 			)
-			(pin input line
+		)
+		(symbol "Header-Male-2_54_1x3_1_1"
+			(pin passive line
 				(at -3.81 2.54 0)
 				(length 2.54)
 				(name "1"
@@ -3290,7 +3295,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -3.81 0 0)
 				(length 2.54)
 				(name "2"
@@ -3308,7 +3313,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -3.81 -2.54 0)
 				(length 2.54)
 				(name "3"
@@ -3438,7 +3443,9 @@
 					(type background)
 				)
 			)
-			(pin unspecified line
+		)
+		(symbol "Header-Male-2_54_1x8_1_1"
+			(pin passive line
 				(at -5.08 8.89 0)
 				(length 2.54)
 				(name "1"
@@ -3456,7 +3463,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -5.08 6.35 0)
 				(length 2.54)
 				(name "2"
@@ -3474,7 +3481,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -5.08 3.81 0)
 				(length 2.54)
 				(name "3"
@@ -3492,7 +3499,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -5.08 1.27 0)
 				(length 2.54)
 				(name "4"
@@ -3510,7 +3517,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -5.08 -1.27 0)
 				(length 2.54)
 				(name "5"
@@ -3528,7 +3535,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -5.08 -3.81 0)
 				(length 2.54)
 				(name "6"
@@ -3546,7 +3553,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -5.08 -6.35 0)
 				(length 2.54)
 				(name "7"
@@ -3564,7 +3571,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -5.08 -8.89 0)
 				(length 2.54)
 				(name "8"
@@ -3703,7 +3710,9 @@
 					(type background)
 				)
 			)
-			(pin unspecified line
+		)
+		(symbol "KH-IPEX-K501-29_1_1"
+			(pin power_in line
 				(at 0 -12.7 90)
 				(length 5.08)
 				(name "GND"
@@ -3721,7 +3730,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at -12.7 0 0)
 				(length 5.08)
 				(name "GND"
@@ -3739,7 +3748,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at 12.7 0 180)
 				(length 5.08)
 				(name "GND"
@@ -3757,7 +3766,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 0 12.7 270)
 				(length 5.08)
 				(name "SIG"
@@ -4960,7 +4969,9 @@
 					(type background)
 				)
 			)
-			(pin unspecified line
+		)
+		(symbol "MAX30101EFD+T_1_1"
+			(pin no_connect line
 				(at -11.43 7.62 0)
 				(length 2.54)
 				(name "NC"
@@ -4978,7 +4989,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at -11.43 5.08 0)
 				(length 2.54)
 				(name "SCL"
@@ -4996,7 +5007,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at -11.43 2.54 0)
 				(length 2.54)
 				(name "SDA"
@@ -5014,7 +5025,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at -11.43 0 0)
 				(length 2.54)
 				(name "PGND"
@@ -5032,7 +5043,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin no_connect line
 				(at -11.43 -2.54 0)
 				(length 2.54)
 				(name "NC"
@@ -5050,7 +5061,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin no_connect line
 				(at -11.43 -5.08 0)
 				(length 2.54)
 				(name "NC"
@@ -5068,7 +5079,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin no_connect line
 				(at -11.43 -7.62 0)
 				(length 2.54)
 				(name "NC"
@@ -5086,7 +5097,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin no_connect line
 				(at 11.43 -7.62 180)
 				(length 2.54)
 				(name "NC"
@@ -5104,7 +5115,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at 11.43 -5.08 180)
 				(length 2.54)
 				(name "VLED+"
@@ -5122,7 +5133,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at 11.43 -2.54 180)
 				(length 2.54)
 				(name "VLED+"
@@ -5140,7 +5151,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at 11.43 0 180)
 				(length 2.54)
 				(name "VDD"
@@ -5158,7 +5169,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at 11.43 2.54 180)
 				(length 2.54)
 				(name "GND"
@@ -5176,7 +5187,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin output line
 				(at 11.43 5.08 180)
 				(length 2.54)
 				(name "INT#"
@@ -5194,7 +5205,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin no_connect line
 				(at 11.43 7.62 180)
 				(length 2.54)
 				(name "NC"
@@ -7271,7 +7282,9 @@
 					(type background)
 				)
 			)
-			(pin unspecified line
+		)
+		(symbol "PZ2_54-1X4-11_2_1_1"
+			(pin passive line
 				(at -5.08 3.81 0)
 				(length 2.54)
 				(name "1"
@@ -7289,7 +7302,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -5.08 1.27 0)
 				(length 2.54)
 				(name "2"
@@ -7307,7 +7320,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -5.08 -1.27 0)
 				(length 2.54)
 				(name "3"
@@ -7325,7 +7338,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at -5.08 -3.81 0)
 				(length 2.54)
 				(name "4"
@@ -9733,6 +9746,491 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "TPS61240YFFR"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS61240YFFR"
+			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JLC_PARTS:DSBGA-6_L1.2-W0.8-R2-C3-P0.40-BL"
+			(at 0 -10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/cn/lit/ds/symlink/tps22921.pdf?ts=1643065951645"
+			(at -2.286 0.127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2070904"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "C2070904"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "TPS61240YFFR_0_1"
+			(rectangle
+				(start -7.62 5.08)
+				(end 7.62 -5.08)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center -6.35 3.81)
+				(radius 0.381)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "TPS61240YFFR_1_1"
+			(pin power_in line
+				(at -10.16 0 0)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "A1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 10.16 -2.54 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "A2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.16 2.54 0)
+				(length 2.54)
+				(name "L"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "B1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 10.16 0 180)
+				(length 2.54)
+				(name "VOUT"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "B2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 -2.54 0)
+				(length 2.54)
+				(name "EN"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "C1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10.16 2.54 180)
+				(length 2.54)
+				(name "FB"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "C2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "TPS61256AYFFR"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS61256AYFFR"
+			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JLC_PARTS:DSBGA-9_L1.3-W1.2-P0.40-BL"
+			(at 0 -10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/cn/lit/ds/symlink/tps61256.pdf?ts=1631152347602"
+			(at -2.286 0.127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C473355"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "C473355"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "TPS61256AYFFR_0_1"
+			(rectangle
+				(start -7.62 7.62)
+				(end 7.62 -12.7)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "TPS61256AYFFR_1_1"
+			(pin power_out line
+				(at 12.7 5.08 180)
+				(length 5.08)
+				(name "VOUT"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "A1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 12.7 5.08 180)
+				(length 5.08)
+				(hide yes)
+				(name "VOUT"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "A2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -12.7 -2.54 0)
+				(length 5.08)
+				(name "VIN"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "A3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 5.08 0)
+				(length 5.08)
+				(name "SW"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "B1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 5.08 0)
+				(length 5.08)
+				(hide yes)
+				(name "SW"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "B2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -10.16 0)
+				(length 5.08)
+				(name "EN"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "B3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 12.7 -10.16 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "C1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 12.7 -10.16 180)
+				(length 5.08)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "C2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 12.7 -10.16 180)
+				(length 5.08)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "C3"
 					(effects
 						(font
 							(size 1 1)

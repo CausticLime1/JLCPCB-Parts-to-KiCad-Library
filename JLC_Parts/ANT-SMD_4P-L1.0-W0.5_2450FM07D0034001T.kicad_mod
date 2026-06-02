@@ -1,7 +1,7 @@
 (footprint "ANT-SMD_4P-L1.0-W0.5_2450FM07D0034001T"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "ANT-SMD_4P-L1.0-W0.5_2450FM07D0034001T footprint")
 	(tags "ANT-SMD_4P-L1.0-W0.5_2450FM07D0034001T footprint C17436517")
@@ -9,7 +9,7 @@
 		(at 0 -2.200152 180)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "69a3cb65-76ed-44e3-b91b-15f4f9fb66f1")
+		(uuid "20ed74a2-6f13-48f9-b590-009dc36ce2a6")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 	(property "Value" "2450FM07A0035001T"
 		(at 0 2.199898 180)
 		(layer "F.Fab")
-		(uuid "d14b5a63-6274-4e4a-9c46-82c8dc812727")
+		(uuid "b4aad341-411c-4fa5-8200-40de43ffb504")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d07dd45b-e4a4-453c-89d5-423688b95d4e")
+		(uuid "91a87c54-39b5-4d77-aa30-8794d3591cee")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "11e2eb94-fde8-4e0d-b50a-971b11f5aa09")
+		(uuid "369910c7-453d-4fce-857c-14d051449682")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -57,7 +57,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9eec018e-8324-4905-a82a-ecda4e8fbf2b")
+		(uuid "6c4dce33-3b0c-4255-b4e7-663dec278c46")
 		(effects
 			(font
 				(size 1 1)
@@ -66,6 +66,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.700012 0.45)
 		(end -0.700012 0.355499)
@@ -74,7 +75,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "ac96196c-43e1-4494-a49e-1c75da0f6f89")
+		(uuid "1cdecf92-811f-4971-9e9f-a2ae444e449a")
 	)
 	(fp_line
 		(start -0.7 -0.35)
@@ -84,7 +85,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "4afca206-98a4-41aa-a938-043bc6d7a9ed")
+		(uuid "bae9694d-1891-4310-bc94-8c42f10add01")
 	)
 	(fp_line
 		(start -0.25 -0.444501)
@@ -94,7 +95,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "95dbcb9c-1978-4fed-9969-6aba8584fe0f")
+		(uuid "da583af1-5a1b-44ab-a1bb-221da8093120")
 	)
 	(fp_line
 		(start -0.249987 0.45)
@@ -104,7 +105,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "f7a19554-c86f-42d1-bc5d-af24a7e45d93")
+		(uuid "4b95ba99-0b1f-4924-a115-457e90178761")
 	)
 	(fp_line
 		(start 0.7 -0.35)
@@ -114,7 +115,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "20e5b758-f032-4c68-8cb6-0dab5ac81236")
+		(uuid "6c4a1559-19fd-4ab9-a48f-184ecb7e6f6d")
 	)
 	(fp_line
 		(start 0.700013 -0.45)
@@ -124,7 +125,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "51c7d07d-4ad2-4796-8868-fd76d62e8b4e")
+		(uuid "0bbe1649-9288-40f5-8f32-6896f732aadb")
 	)
 	(fp_line
 		(start 0.700013 0.44725)
@@ -134,7 +135,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "af7c4da1-f0eb-4a27-8c85-2d375a6e47f2")
+		(uuid "8154fa0b-7c83-4684-980e-cf72fcbeb229")
 	)
 	(fp_line
 		(start 0.700013 0.45)
@@ -144,7 +145,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "affa34e1-eef4-4cdb-81d1-545908658861")
+		(uuid "66f8e8eb-d269-4479-b1ee-8b0e6d4549a1")
 	)
 	(fp_poly
 		(pts
@@ -156,7 +157,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "8aced832-a704-4e40-a07e-65a1dd30855b")
+		(uuid "666499a3-d143-4aff-89d1-17b011ee9d2d")
 	)
 	(fp_poly
 		(pts
@@ -168,83 +169,12 @@
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "1571424e-8e39-4acc-a2d9-d23cf3dbbc85")
-	)
-	(fp_circle
-		(center -0.500127 0.249936)
-		(end -0.470155 0.249936)
-		(stroke
-			(width 0.059995)
-			(type solid)
-		)
-		(fill no)
-		(layer "Rescue")
-		(uuid "30c35a7e-fd64-4cee-8e27-314d8d10793e")
-	)
-	(fp_poly
-		(pts
-			(xy -0.500025 -0.249987) (xy -0.320015 -0.249987) (xy -0.320015 0.250013) (xy -0.500025 0.250013)
-		)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(fill yes)
-		(layer "Rescue")
-		(uuid "39c16525-1964-4040-b81f-cc8f0606ba35")
-	)
-	(fp_poly
-		(pts
-			(xy -0.5 0.249987) (xy -0.5 -0.250013) (xy 0.5 -0.250013) (xy 0.5 0.249987)
-		)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(fill yes)
-		(layer "Rescue")
-		(uuid "05bd3eab-a5d4-48e2-bdb6-287da4e6c76a")
-	)
-	(fp_poly
-		(pts
-			(xy -0.124994 -0.250038) (xy 0.124994 -0.250038) (xy 0.124994 -0.150038) (xy -0.124994 -0.150038)
-		)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(fill yes)
-		(layer "Rescue")
-		(uuid "472450dc-ed94-49dc-95e5-9bc6334cbe38")
-	)
-	(fp_poly
-		(pts
-			(xy -0.124994 0.150013) (xy 0.124994 0.150013) (xy 0.124994 0.250013) (xy -0.124994 0.250013)
-		)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(fill yes)
-		(layer "Rescue")
-		(uuid "cfb27c32-5cc3-43cd-ba23-4d82232c9153")
-	)
-	(fp_poly
-		(pts
-			(xy 0.320015 -0.249987) (xy 0.500025 -0.249987) (xy 0.500025 0.250013) (xy 0.320015 0.250013)
-		)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(fill yes)
-		(layer "Rescue")
-		(uuid "2e3c20b2-e5be-4fa7-98f0-38cbf6ae64f6")
+		(uuid "3da4fb00-30e2-407b-8ec9-814a41f68791")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -0.000127 180)
 		(layer "F.Fab")
-		(uuid "218f76f0-dd87-44ad-b645-f10ea88453b6")
+		(uuid "6c5943e9-5e60-4106-abfe-ad8764ee4573")
 		(effects
 			(font
 				(size 1 1)
@@ -267,7 +197,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "0adf3b4d-03b0-4d06-8d28-0abdf8533095")
+		(uuid "5d10cb7a-914b-49f8-926c-4215ff8b8951")
 	)
 	(pad "2" smd rect
 		(at 0 0.35)
@@ -284,7 +214,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "9d8c75a0-562e-473a-b1b1-3ccbd7d9c14c")
+		(uuid "c4d6c6ae-bc34-4fd5-a0fc-cbea5831cbad")
 	)
 	(pad "3" smd rect
 		(at 0.624997 0)
@@ -301,7 +231,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "f5b00bf4-330b-459b-8c05-ca8eae7dd252")
+		(uuid "7bf43c70-21aa-4589-8cd2-732f8ea8a955")
 	)
 	(pad "4" smd rect
 		(at 0 -0.35)
@@ -318,7 +248,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "2fe36533-5b32-451e-bb38-0d8d4ee3cd2c")
+		(uuid "60095371-1570-45c7-a68d-403c626e7809")
 	)
 	(embedded_fonts no)
 	(model "packages3d/ANT-SMD_4P-L1.0-W0.5_2450FM07D0034001T.step"

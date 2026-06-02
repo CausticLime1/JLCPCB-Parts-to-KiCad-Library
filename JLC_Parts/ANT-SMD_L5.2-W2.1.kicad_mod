@@ -1,32 +1,161 @@
-(module "ANT-SMD_L5.2-W2.1" (layer F.Cu) (tedit 69AEBD65)
-  (descr "ANT-SMD_L5.2-W2.1 footprint")
-  (tags "ANT-SMD_L5.2-W2.1 footprint C6407418")
-  (attr smd)
-  (fp_text reference REF** (at -0.030074 -3.38001) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value ANT-SMD_L5.2-W2.1 (at -0.030074 3.38001) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_circle (center -2.6 1.050013) (end -2.570003 1.050013) (layer User.Comments) (width 0.059995))
-  (fp_line (start -2.600229 -1.38001) (end 2.599721 -1.38001) (layer F.SilkS) (width 0.254001))
-  (fp_line (start 2.540005 1.38001) (end -2.659868 1.38001) (layer F.SilkS) (width 0.254001))
-  (fp_line (start -1.778258 -0.508255) (end -1.778258 0.507747) (layer F.SilkS) (width 0.254001))
-  (fp_line (start -1.778258 0.507747) (end -1.016256 0.507747) (layer F.SilkS) (width 0.254001))
-  (fp_line (start -1.016256 0.507747) (end -1.016256 -0.508255) (layer F.SilkS) (width 0.254001))
-  (fp_line (start -1.016256 -0.508255) (end -1.778258 -0.508255) (layer F.SilkS) (width 0.254001))
-  (pad 1 smd rect (at -2.540005 0) (size 1 2.3) (layers F.Cu F.Mask F.Paste))
-  (pad 2 smd rect (at 2.540005 0) (size 1 2.3) (layers F.Cu F.Mask F.Paste))
-  (fp_poly (pts (xy -2.6 -1.050013) (xy -2.099975 -1.050013) (xy -2.099975 1.050013) (xy -2.6 1.050013)) (layer User.Comments) (width 0.15))
-  (fp_poly (pts (xy 2.1 -1.050013) (xy 2.600025 -1.050013) (xy 2.600025 1.050013) (xy 2.1 1.050013)) (layer User.Comments) (width 0.15))
-  (fp_poly (pts (xy -2.6 1.050013) (xy -2.6 -1.049987) (xy 2.6 -1.049987) (xy 2.6 1.050013)) (layer User.Comments) (width 0.15))
-  (fp_poly (pts (xy -1.778004 -0.508001) (xy -1.016002 -0.508001) (xy -1.016002 0.508001) (xy -1.778004 0.508001)) (layer F.Fab) (width 0.1))
-  (fp_text user ${REFERENCE} (at -0.030074 0) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (model packages3d/ANT-SMD_L5.2-W2.1.step
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 -180))
-  )
+(footprint "ANT-SMD_L5.2-W2.1"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "ANT-SMD_L5.2-W2.1 footprint")
+	(tags "ANT-SMD_L5.2-W2.1 footprint C6407418")
+	(property "Reference" "REF**"
+		(at -0.030074 -3.38001 0)
+		(layer "F.SilkS")
+		(uuid "f2fc1e7a-13f2-4883-a1ca-d6d325861a35")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ANT-SMD_L5.2-W2.1"
+		(at -0.030074 3.38001 0)
+		(layer "F.Fab")
+		(uuid "2bee9696-db75-4c6a-8eae-fbdfaf8a6904")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "627655c2-ded6-42b6-b77f-bb061d6c1c5f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "de7b52cc-8f04-4512-a9f5-55a58f43c415")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.600229 -1.38001)
+		(end 2.599721 -1.38001)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "55750c89-0687-40c3-a099-5a4666ecdae5")
+	)
+	(fp_line
+		(start -1.778258 -0.508255)
+		(end -1.778258 0.507747)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "63408ca1-99fb-4a5d-a41f-1174ce10075d")
+	)
+	(fp_line
+		(start -1.778258 0.507747)
+		(end -1.016256 0.507747)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0ca9ca7b-a482-47d6-b150-4311ab957d2f")
+	)
+	(fp_line
+		(start -1.016256 -0.508255)
+		(end -1.778258 -0.508255)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3c143e06-032c-4faa-92fb-b5e345ff3c71")
+	)
+	(fp_line
+		(start -1.016256 0.507747)
+		(end -1.016256 -0.508255)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c122cc38-c604-4e37-ab0e-62d2e57d9edb")
+	)
+	(fp_line
+		(start 2.540005 1.38001)
+		(end -2.659868 1.38001)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "91542bb7-8bb3-4bb3-b400-61e463190dc0")
+	)
+	(fp_poly
+		(pts
+			(xy -1.778004 -0.508001) (xy -1.016002 -0.508001) (xy -1.016002 0.508001) (xy -1.778004 0.508001)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "b7a2703e-8744-4e52-9032-8def78575b16")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.030074 0 0)
+		(layer "F.Fab")
+		(uuid "5ccc678b-5424-4256-aaec-19762b80afcf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.540005 0)
+		(size 1 2.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0204fb8e-a39a-43f5-ae25-39f74b14e3c3")
+	)
+	(pad "2" smd rect
+		(at 2.540005 0)
+		(size 1 2.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "63e92108-0fbd-43d7-9443-38032502d063")
+	)
+	(embedded_fonts no)
+	(model "packages3d/ANT-SMD_L5.2-W2.1.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -180)
+		)
+	)
 )

@@ -1,14 +1,14 @@
-(footprint "SMD_BD1.8-L1.8-W1.8"
+(footprint "SMD_YZP0120-16020-01"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "SMD_BD1.8-L1.8-W1.8 footprint")
-	(tags "SMD_BD1.8-L1.8-W1.8 footprint C5157374")
+	(descr "SMD_YZP0120-16020-01 footprint")
+	(tags "SMD_YZP0120-16020-01 footprint C5157307")
 	(property "Reference" "REF**"
 		(at 0 -2 0)
 		(layer "F.SilkS")
-		(uuid "563cc02f-34d5-417d-b494-7863d686fe83")
+		(uuid "6ec2291f-303d-46b9-9370-caa2973427e2")
 		(effects
 			(font
 				(size 1 1)
@@ -16,10 +16,10 @@
 			)
 		)
 	)
-	(property "Value" "SMD_BD1.8-L1.8-W1.8"
+	(property "Value" "SMD_YZP0120-16020-01"
 		(at 0 2 0)
 		(layer "F.Fab")
-		(uuid "28ff6466-ff01-42b3-a8ab-8a99ead9765f")
+		(uuid "d579fbe4-7dbf-4c80-b3a8-249f2f3ed582")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f1786c48-4616-4eb9-b4ec-e12ac589b31d")
+		(uuid "83904e46-64b0-416f-9956-d4a1d5541805")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,19 +42,19 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4dd822a1-2704-48af-910a-ea5569bbdfdd")
+		(uuid "829c2d25-9d26-425e-a68e-a882fc690cc2")
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 	)
-	(attr smd)
+	(attr through_hole)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "39606b30-d5c2-4666-b769-f688b7bf714a")
+		(uuid "3ecd37f7-1955-4c10-a253-a3450d5053be")
 		(effects
 			(font
 				(size 1 1)
@@ -62,24 +62,30 @@
 			)
 		)
 	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.3 1.3)
+		(drill 1.300025)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8b6e9367-7ee0-4cf7-a322-8550d97e2389")
+	)
 	(pad "1" smd circle
 		(at 0 0)
-		(size 1.6 1.6)
+		(size 1.7 1.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.05)
-		(thermal_bridge_angle 90)
-		(uuid "99983eca-efb0-44e6-ba16-c2a6be5e5c73")
+		(uuid "f7d3adc3-b8be-4081-ae7a-0fb71303a589")
 	)
 	(embedded_fonts no)
-	(model "packages3d/SMD_BD1.8-L1.8-W1.8.step"
+	(model "packages3d/SMD_YZP0120-16020-01.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz -0.35 0 0.1)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )

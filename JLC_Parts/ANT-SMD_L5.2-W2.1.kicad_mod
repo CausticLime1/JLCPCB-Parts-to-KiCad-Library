@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at -0.030074 -3.38001 0)
 		(layer "F.SilkS")
-		(uuid "7875556e-214c-4613-a99a-fa627ff22360")
+		(uuid "e51d9e45-5e57-49a0-8e0f-2311fced9d96")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "ANT-SMD_L5.2-W2.1"
 		(at -0.030074 3.38001 0)
 		(layer "F.Fab")
-		(uuid "7c5a47e9-c7bd-4c4a-819b-d2660a093156")
+		(uuid "290c2c48-aaa4-4a13-bfb7-6b1b093a07a8")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "88b82dad-5646-4b82-a222-03e035282185")
+		(uuid "e10d1ddd-2330-4840-9b3d-072e8576f92c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b0ec22fc-4b16-4b43-9be8-e0c5a4c2e333")
+		(uuid "c3490f9c-671f-4e0e-8362-0605e54f80c4")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -59,7 +59,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "6e13fe98-e331-4c0d-8b9f-6411de4297ac")
+		(uuid "a4002241-8bb4-49e6-b5f6-737d6f9a7653")
 	)
 	(fp_line
 		(start -1.778258 -0.508255)
@@ -69,7 +69,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "a37f7f49-f2f3-4b11-b7b0-83f3b9a84e70")
+		(uuid "80cc8184-d388-4033-8215-0a5974e85a82")
 	)
 	(fp_line
 		(start -1.778258 0.507747)
@@ -79,7 +79,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "8d111257-89da-41f5-be31-d93403a9edaf")
+		(uuid "b40c5ff9-9c6a-4f35-9deb-b333cb67f916")
 	)
 	(fp_line
 		(start -1.016256 -0.508255)
@@ -89,7 +89,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "8c1e6a69-181f-40b7-b5a8-2abecb63568d")
+		(uuid "9742abcb-4b2c-4bf5-83b0-1add72b9580e")
 	)
 	(fp_line
 		(start -1.016256 0.507747)
@@ -99,7 +99,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "df2f97cb-3bea-40ff-a15a-15bf84335fd3")
+		(uuid "ec307972-cfb1-474b-976d-2fe8c0f5a05e")
 	)
 	(fp_line
 		(start 2.540005 1.38001)
@@ -109,7 +109,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "47873ae7-30f8-463d-972f-16d992e82256")
+		(uuid "76b2b9f2-e57a-478c-b133-e35162288d40")
 	)
 	(fp_poly
 		(pts
@@ -121,12 +121,12 @@
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "6d78819d-0576-4906-b457-3adf5a77c58a")
+		(uuid "ececb4e7-a7cb-4dc2-8286-93982e547532")
 	)
 	(fp_text user "${REFERENCE}"
 		(at -0.030074 0 0)
 		(layer "F.Fab")
-		(uuid "91c1010b-d2ee-4e0a-85b2-980974759943")
+		(uuid "5651c1f5-1a20-4917-b91f-88ed03f9a480")
 		(effects
 			(font
 				(size 1 1)
@@ -138,13 +138,13 @@
 		(at -2.540005 0)
 		(size 1 2.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "bea04c16-8b87-426b-b119-48d6b0190bc9")
+		(uuid "82ca8673-96f8-4879-82c0-ada81a5ecec9")
 	)
 	(pad "2" smd rect
 		(at 2.540005 0)
 		(size 1 2.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "3cabee50-183d-4c7a-a895-cefeb961fbce")
+		(uuid "c0358217-6e7e-4508-9d0e-b8b3cb8329f5")
 	)
 	(embedded_fonts no)
 	(model "packages3d/ANT-SMD_L5.2-W2.1.step"
